@@ -1,1 +1,0 @@
-window.boxModeEnvironment = 'production';
