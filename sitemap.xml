@@ -8,8 +8,44 @@
 
 
 <url>
-  <loc>http://www.augustinjose.com/</loc>
-  <lastmod>2020-04-14T04:33:53+00:00</lastmod>
+  <loc>http://augustinjose.com/</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/index.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/Projects.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/Articles.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/Resources.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/Achievements.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/TinkerhubCET.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://augustinjose.com/html/IEEESBCET.html</loc>
+  <lastmod>2020-04-16T17:13:23+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
