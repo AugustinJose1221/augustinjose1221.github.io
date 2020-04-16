@@ -216,23 +216,23 @@ video {
     content: "";
     display: block;
     position: absolute;
-    background: repeating-linear-gradient(45deg, 
+    background: repeating-linear-gradient(45deg,
     #28D077 0 40px,
     #FFDF13 0 80px,
     #00ABF2 0 120px,
     #DA281C 0 160px
     );
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0px 100%, 
-    1px calc(100% - 6px), 2px calc(100% - 3px), 3px calc(100% - 2px), 6px calc(100% - 1px), 
-    calc(100% - 6px) calc(100% - 1px), calc(100% - 2px) calc(100% - 3px), calc(100% - 3px) calc(100% - 2px), calc(100% - 1px) calc(100% - 6px), 
-    calc(100% - 1px) 6px, calc(100% - 3px) 2px, calc(100% - 2px) 3px, calc(100% - 6px) 1px, 
-    6px 1px, 3px 2px, 2px 3px, 1px 6px, 
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0px 100%,
+    1px calc(100% - 6px), 2px calc(100% - 3px), 3px calc(100% - 2px), 6px calc(100% - 1px),
+    calc(100% - 6px) calc(100% - 1px), calc(100% - 2px) calc(100% - 3px), calc(100% - 3px) calc(100% - 2px), calc(100% - 1px) calc(100% - 6px),
+    calc(100% - 1px) 6px, calc(100% - 3px) 2px, calc(100% - 2px) 3px, calc(100% - 6px) 1px,
+    6px 1px, 3px 2px, 2px 3px, 1px 6px,
     1px 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0px 100%, 
-    1px calc(100% - 6px), 2px calc(100% - 3px), 3px calc(100% - 2px), 6px calc(100% - 1px), 
-    calc(100% - 6px) calc(100% - 1px), calc(100% - 2px) calc(100% - 3px), calc(100% - 3px) calc(100% - 2px), calc(100% - 1px) calc(100% - 6px), 
-    calc(100% - 1px) 6px, calc(100% - 3px) 2px, calc(100% - 2px) 3px, calc(100% - 6px) 1px, 
-    6px 1px, 3px 2px, 2px 3px, 1px 6px, 
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0px 100%,
+    1px calc(100% - 6px), 2px calc(100% - 3px), 3px calc(100% - 2px), 6px calc(100% - 1px),
+    calc(100% - 6px) calc(100% - 1px), calc(100% - 2px) calc(100% - 3px), calc(100% - 3px) calc(100% - 2px), calc(100% - 1px) calc(100% - 6px),
+    calc(100% - 1px) 6px, calc(100% - 3px) 2px, calc(100% - 2px) 3px, calc(100% - 6px) 1px,
+    6px 1px, 3px 2px, 2px 3px, 1px 6px,
     1px 100%, 0 100%);
     background-size: 226px;
     background-position: top left;
@@ -256,14 +256,14 @@ video {
   .text-button:hover {
     text-decoration: underline;
   }
-  
+
   .text-button--arrow::after {
     content: "";
     display: inline-block;
     vertical-align: middle;
     height: .7em;
     width: .7em;
-    margin-left: .3em;    
+    margin-left: .3em;
     -webkit-mask: url("../images/arrow-right.svg") no-repeat center;
     mask: url("../images/arrow-right.svg") no-repeat center;
     -webkit-mask-size: contain;
@@ -283,14 +283,14 @@ video {
     }
     .text-button--accent::before {
       content: "";
-      background: linear-gradient(to right, 
-      #28D077 0% 12.5%, 
-      #FFDF13 12.5% 25%, 
-      #00ABF2 25% 37.5%, 
-      #DA281C 37.5% 50%, 
-      #28D077 50% 62.5%, 
-      #FFDF13 62.5% 75%, 
-      #00ABF2 75% 87.5%, 
+      background: linear-gradient(to right,
+      #28D077 0% 12.5%,
+      #FFDF13 12.5% 25%,
+      #00ABF2 25% 37.5%,
+      #DA281C 37.5% 50%,
+      #28D077 50% 62.5%,
+      #FFDF13 62.5% 75%,
+      #00ABF2 75% 87.5%,
       #DA281C 87.5% 100%
       );
       background-size: 200% 100%;
@@ -327,7 +327,7 @@ header {
     background-color: rgba(17,17,17, calc(.8 + var(--scale-coeff, 1) ) );
     -webkit-backdrop-filter: blur(17px);
     will-change: height, background-color, opacity, --scale-coeff;
-    
+
   }
 }
 @supports(backdrop-filter: blur(17px)) {
@@ -372,7 +372,7 @@ header {
       --max-line-height: 29px;
       --min-margin-left: 22px;
       --max-margin-left: 30px;
-      
+
       font-size: calc( ( ( var(--max-font-size) - var(--min-font-size) ) * var(--scale-coeff, 1) ) + var(--min-font-size) );
       font-weight: 500;
       line-height: calc( ( ( var(--max-line-height) - var(--min-line-height) ) * var(--scale-coeff, 1) ) + var(--min-line-height) );
@@ -483,7 +483,7 @@ header {
         visibility: visible;
         transition-delay: 0s;
       }
-      
+
 
 
 section {
@@ -767,6 +767,47 @@ section {
     padding: 105px var(--section-left-right-padding);
   }
 
+  .section-9 {
+    border-bottom: none;
+    height: 105vh;
+    z-index: -1;
+    background: var(--background-color);
+  }
+    .section-9::before {
+      content: "";
+      position: absolute;
+      z-index: 4;
+      width: 100%;
+      height: var(--main-distance);
+      top: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.6));
+      pointer-events: none;
+    }
+    .section-9::after {
+      content: "";
+      position: absolute;
+      z-index: 4;
+      width: 100%;
+      height: 5px;
+      bottom: 0;
+      background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.3));
+      pointer-events: none;
+    }
+    .section-9 .parallax-bg-canvas {
+      background-image: url("../images/section-3-bg.jpg");
+      background-position: right 42%;
+      background-size: auto 140vh;
+      background-repeat: repeat-y;
+      margin-bottom: 0;
+    }
+      .section-9 .container {
+        padding: 0 var(--main-distance);
+        justify-content: center;
+        position: fixed;
+        top: 10px;
+        max-width: 1084px;
+      }
+
 
 .section-1__text-1 {
   font-size: 24px;
@@ -886,7 +927,13 @@ section {
   justify-content: center;
   margin: 35px auto 0;
 }
-
+.section-9__text-1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 76px;
+  color: var(--color-dimmed);
+  max-width: 800px;
+}
 
 .inner-page {
   margin-bottom: 0;
@@ -1185,18 +1232,18 @@ footer {
     line-height: 36px;
     margin-top: 10px;
   }
-  
+
   .section-2__text-1 {
     font-size: 22px;
     line-height: 28px;
   }
-  
+
   .section-3__text-1 {
     font-size: 32px;
     line-height: 36px;
     max-width: 600px;
   }
-  
+
   .section-5__text-1 {
     font-size: 32px;
     line-height: 36px;
@@ -1207,7 +1254,7 @@ footer {
     max-width: 500px;
     margin: 40px auto 0;
   }
-  
+
   .section-6__text-1 {
     font-size: 32px;
     line-height: 36px;
@@ -1217,7 +1264,7 @@ footer {
     line-height: 26px;
     margin-top: 16px;
   }
-  
+
   .section-7__text-1 {
     font-size: 19px;
     line-height: 23px;
@@ -1227,7 +1274,7 @@ footer {
     line-height: 36px;
     margin-top: 11px;
   }
-  
+
   .section-8__text-1 {
     font-size: 32px;
     line-height: 36px;
