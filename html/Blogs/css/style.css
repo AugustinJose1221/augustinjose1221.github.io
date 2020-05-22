@@ -534,13 +534,15 @@ Blog Section
 	margin-top: -120px;
 	margin-left: 200px;
 }
-.blog-left-arrow img{
-	border-radius: 50%;
+
+.blog-left-inner .blog-left-arrow img{
+	border: none;
 	height: 40px;
-	width: 40px;
-	margin-top: 10px;
-	margin-left: 200px;
+	width: 60px;
+	margin-top: -20px;
+	margin-left: 0px;
 }
+
 .blog-left-inner img{
 	height: 60px;
 	width: 60px;
@@ -571,17 +573,18 @@ Blog Section
 	padding-bottom: 30px;
 	border-top-left-radius: 30px;
 	border-top-right-radius: 30px;
-	border-bottom-left-radius: 120px;
-	border-bottom-right-radius: 30px;
+	border-bottom-right-radius: 120px;
+	border-bottom-left-radius: 30px;
 	height: 280px;
 	width: 270px;
 	overflow-x: visible;
+	margin-left: 50px;
 }
 
 .blog-item-right-text p{
 	margin-right: 20px;
 	margin-top: -10px;
-	margin-left: 10px;
+	margin-left: 50px;
 	color: #ffffff;
 	font-size: 20px;
 	font-weight: bold;
@@ -594,17 +597,17 @@ Blog Section
 	background: #ffffff;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 110px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 110px;
 	margin-top: -120px;
-	margin-left: 200px;
+	margin-left: -70px;
 }
-.blog-right-arrow img{
-	border-radius: 50%;
+.blog-right-inner .blog-right-arrow img{
+	border: none;
 	height: 40px;
-	width: 40px;
-	margin-top: 10px;
-	margin-left: 200px;
+	width: 60px;
+	margin-top: -20px;
+	margin-left: 40px;
 }
 .blog-right-inner img{
 	height: 60px;
@@ -614,6 +617,7 @@ Blog Section
 	border-color: #ffffff;
 	border-width: thick;
 	margin-top: -27px;
+	margin-left: 40px;
 }
 
 .blog-right-inner h2{
