@@ -501,14 +501,14 @@ Blog Section
 	background: #23bee5;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 50px;
+	padding-top: 90px;
 	padding-bottom: 30px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
-	border-bottom-left-radius: 100px;
-	border-bottom-right-radius: 25px;
-	height: 220px;
-	width: 220px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 120px;
+	border-bottom-right-radius: 30px;
+	height: 280px;
+	width: 270px;
 	overflow-x: visible;
 }
 
@@ -521,16 +521,29 @@ Blog Section
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 110px;
-	margin-left: 150px;
+	margin-left: 200px;
 }
 
 .blog-left-inner img{
-	height: 70px;
-	width: 70px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
 	border-style: solid;
 	border-color: #ffffff;
-	border-width: medium;
+	border-width: thick;
+	margin-top: -30px;
+}
+
+.blog-left-inner h2{
+	font-weight: 200;
+	margin-left: 5px;
+	font-size: 20px;
+	color: #000000;
+}
+
+.blog-left-inner p{
+	font-size: 13px;
+	margin-left: 20px;
 }
 
 
