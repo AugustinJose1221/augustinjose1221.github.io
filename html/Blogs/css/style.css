@@ -7,7 +7,7 @@ body {
 	height: 100%;
 	/* font-family: "Montserrat", sans-serif; */
 	/* font-family: 'Roboto Mono', monospace; */
-	font-family: 'Poppins', sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	scroll-behavior: smooth;
@@ -234,8 +234,13 @@ bgcolor def=08192d
 }
 
 .header-right .hr-btn {
+	padding-left: 1em;
+	padding-right: 1em;
 	display: inline-block;
-	color: #fc7b02;
+	color: #00acee;
+	border-style: solid;
+	border-radius: 9999px;
+	border-width: thin;
 }
 
 .header-right .user-panel {
@@ -346,7 +351,7 @@ Hero section
 	-ms-flex-align: center;
 	align-items: center;
 	/*#0a183d*/
-	background: #dbdbdb;
+	background: #e6ecf0;
 	background-image: url(../img/logofinal.ico);
 	background-size: 200px;
 	background-repeat: no-repeat;
@@ -355,7 +360,7 @@ Hero section
 
 .hs-item h2 {
 	color: #fff;
-	font-size: 70px;
+	font-size: 110px;
 	margin-bottom: 25px;
 	line-height: 0.9;
 	position: relative;
