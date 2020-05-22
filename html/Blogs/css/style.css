@@ -369,7 +369,7 @@ Hero section
 }
 
 .hs-item h2 span {
-	color: #000000;
+	color: #ffffff;
 }
 
 .hs-item p {
@@ -458,17 +458,17 @@ Hero section
 }
 .people-section .hs-item {
 	background-size: 1300px;
-	background-image: url(../img/People.png);
+	background-image: url(../img/HeaderA1.png);
 	background-position: 900px, 0px;
 }
 .story-section{
 	overflow: hidden;
 }
 .story-section .hs-item{
-	background-size: 1200px;
+	background-size: 1600px;
 	/*background-image: url(../img/Story1.png);*/
-	background-image: url(../img/Story.png);
-	background-position: 800px, 0px;
+	background-image: url(../img/HeaderA1.png);
+	background-position: center;
 }
 .contacts-section{
 	overflow: hidden;
