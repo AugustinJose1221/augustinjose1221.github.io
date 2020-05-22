@@ -498,7 +498,7 @@ Blog Section
 }
 
 .blog-item-left {
-	background: #23bee5;
+	background: #02b7e6;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 90px;
@@ -512,18 +512,33 @@ Blog Section
 	overflow-x: visible;
 }
 
+.blog-item-left-text p{
+	margin-top: -10px;
+	margin-left: 10px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 .blog-left-inner {
 	overflow-y: visible;
-	height: 110px;
+	height: 130px;
 	width: 100px;
 	background: #ffffff;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 110px;
+	margin-top: -120px;
 	margin-left: 200px;
 }
-
+.blog-left-arrow img{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 200px;
+}
 .blog-left-inner img{
 	height: 60px;
 	width: 60px;
