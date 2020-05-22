@@ -562,6 +562,12 @@ Blog Section
 	margin-left: 20px;
 }
 
+.blog-text p{
+	margin-top: 80px;
+	color: #000000;
+	font-family: "Times";
+	font-size: 20px;
+}
 
 /* ----------------
 How section
