@@ -667,6 +667,9 @@ Blog Section
 	margin-left: 50px;
 }
 
+.blog-item-right .box-images {
+	margin-left: 10px;
+}
 /* ----------------
 How section
  -------------------*/
