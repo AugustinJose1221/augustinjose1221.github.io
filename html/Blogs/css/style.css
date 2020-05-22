@@ -494,7 +494,8 @@ Blog Section
 
 .blog-section {
 	overflow: hidden;
-	background: #f8f4ec;
+	background: #eae6de;
+	/*#f8f4ec;*/
 }
 
 .blog-item-left {
@@ -546,7 +547,7 @@ Blog Section
 	border-style: solid;
 	border-color: #ffffff;
 	border-width: thick;
-	margin-top: -30px;
+	margin-top: -27px;
 }
 
 .blog-left-inner h2{
