@@ -639,6 +639,21 @@ Blog Section
 	font-size: 20px;
 }
 
+.box-images {
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+.tag-1 img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: medium;
+	margin-left: -13px;
+}
+
 /* ----------------
 How section
  -------------------*/
