@@ -640,6 +640,7 @@ Blog Section
 }
 
 .box-images {
+	z-index: 4;
 	margin-top: 20px;
 	margin-left: 150px;
 }
@@ -652,6 +653,18 @@ Blog Section
 	border-color: #ffffff;
 	border-width: medium;
 	margin-left: -13px;
+}
+.tag-1 p{
+	background: #ffffff;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: medium;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 50px;
 }
 
 /* ----------------
