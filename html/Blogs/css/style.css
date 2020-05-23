@@ -461,15 +461,27 @@ Hero section
 	background-image: url(../img/HeaderA1.png);
 	background-position: 900px, 0px;
 }
-.story-section{
+.story-section1{
 	overflow: hidden;
 }
-.story-section .hs-item{
+.story-section1 .hs-item{
 	background-size: 1600px;
 	/*background-image: url(../img/Story1.png);*/
 	background-image: url(../img/HeaderA1.png);
 	background-position: center;
 }
+
+.story-section2{
+	overflow: hidden;
+}
+.story-section2 .hs-item{
+	background-size: 900px;
+	/*background-image: url(../img/Story1.png);*/
+	background-image: url(../img/HeaderA2.jpg);
+	background-position: center;
+}
+
+
 .contacts-section{
 	overflow: hidden;
 }
