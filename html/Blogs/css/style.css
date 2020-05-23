@@ -481,7 +481,20 @@ Hero section
 	background-position: center;
 }
 
+.story-section3{
+	overflow: hidden;
+}
+.story-section3 .hs-item{
+	background-repeat: no-repeat;
+	background-size: 650px;
+	/*background-image: url(../img/Story1.png);*/
+	background-image: url(../img/HeaderA3.png);
+	background-position: center;
+}
 
+.story-section3 .hs-item h2 span {
+	color: #ffffff;
+}
 .contacts-section{
 	overflow: hidden;
 }
