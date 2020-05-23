@@ -495,6 +495,17 @@ Hero section
 .story-section3 .hs-item h2 span {
 	color: #ffffff;
 }
+
+.story-section4{
+	overflow: hidden;
+}
+.story-section4 .hs-item{
+	background-size: 2000px;
+	/*background-image: url(../img/Story1.png);*/
+	background-image: url(../img/HeaderA4.png);
+	background-position: center;
+}
+
 .contacts-section{
 	overflow: hidden;
 }
