@@ -1486,14 +1486,9 @@ transition-delay: 0.9s
     list-style-type: none;
      }
    #nav > li {
-     display: inline-block;
-
-     font-size: 10em;
+         font-size: 10em;
     }
 }
 #nav{
   list-style-type: none;
  }
- #nav > li {
-   //display: inline-block;
-   
