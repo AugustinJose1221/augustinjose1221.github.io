@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="application/ld+json">
   {
       "@context": "http://schema.org/",
@@ -83,7 +84,7 @@
 .dropbtn {
   background-color: #111111;
   color: white;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: 0;
 }
@@ -105,29 +106,31 @@
   text-decoration: none;
   display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #111111;}
+//.dropdown-content a:hover {background-color: #ddd;}
+//.dropdown:hover .dropdown-content {display: block;}
+//.dropdown:hover .dropbtn {background-color: #111111;}
 </style>
 </head>
 <body>
 <div>
+<nav role="navbar">
+<ul id="nav">
 <div class="dropdown">
-  <a href="index.html"><button class="dropbtn">Home</button></a>
+  <li><a href="index.html"><button class="dropbtn">Home</button></a></li>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">My Works</button>
+  <li><button class="dropbtn">My Works</button>
   <div class="dropdown-content">
     <a href="html/Projects.html">Projects</a>
     <a href="https://blog.augustinjose.com/">Articles</a>
     <a href="html/Resources.html">Resources</a>
-  </div>
+  </div></li>
 </div>
 <div class="dropdown">
-  <a href="html/Achievements.html"><button class="dropbtn">Achievements</button></a>
+  <li><a href="html/Achievements.html"><button class="dropbtn">Achievements</button></a></li>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">Community</button>
+ <li> <button class="dropbtn">Community</button></li>
   <div class="dropdown-content">
     <a href="html/CirQle.html">CirQle</a>
     <a href="html/TinkerhubCET.html">TinkerhubCET</a>
@@ -136,7 +139,7 @@
   </div>
 </div>
 <div class="dropdown">
-  <button class="dropbtn">Connect</button>
+  <li><button class="dropbtn">Connect</button></li>
   <div class="dropdown-content">
     <a href="https://www.linkedin.com/in/augustin-jose1221/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <a href="https://www.instagram.com/augustin_jose1221/" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -145,8 +148,10 @@
   </div>
 </div>
 <div class="dropdown">
-  <a href="#Contacts"><button class="dropbtn">Contact</button></a>
+  <li><a href="#Contacts"><button class="dropbtn">Contact</button></a></li>
 </div>
+</ul>
+</nav>
 </div>
 </body>
 </div>

@@ -1481,3 +1481,19 @@ opacity: 1;
 transform: translateY(0);
 transition-delay: 0.9s
 }
+@media screen and (max-width: 600px) {
+  #nav{
+    list-style-type: none;
+     }
+   #nav > li {
+     display: inline-block;
+
+     font-size: 10em;
+    }
+}
+#nav{
+  list-style-type: none;
+ }
+ #nav > li {
+   //display: inline-block;
+   
